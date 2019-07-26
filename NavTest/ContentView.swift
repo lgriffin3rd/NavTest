@@ -10,7 +10,15 @@ import SwiftUI
 
 struct ContentView : View {
     var body: some View {
-        Text("Hello World")
+        NavigationView {
+            VStack {
+                Text("Starting SwiftUI View")
+                
+                NavigationLink(destination: ViewControllerWrapper(controller: TestViewController())) {
+                    Text("Go to VC").color(.blue).padding()
+                }
+            }
+        }
     }
 }
 

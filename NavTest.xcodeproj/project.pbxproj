@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD2BD17A22E9F45E000E2A35 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2BD17922E9F45E000E2A35 /* ThirdViewController.swift */; };
+		FD2BD17C22E9FA68000E2A35 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2BD17B22E9FA68000E2A35 /* FourthViewController.swift */; };
 		FD96526222E9DACA003E78DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD96526122E9DACA003E78DF /* AppDelegate.swift */; };
 		FD96526422E9DACA003E78DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD96526322E9DACA003E78DF /* SceneDelegate.swift */; };
 		FD96526722E9DACA003E78DF /* NavTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FD96526522E9DACA003E78DF /* NavTest.xcdatamodeld */; };
@@ -14,9 +16,16 @@
 		FD96526B22E9DACC003E78DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD96526A22E9DACC003E78DF /* Assets.xcassets */; };
 		FD96526E22E9DACC003E78DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD96526D22E9DACC003E78DF /* Preview Assets.xcassets */; };
 		FD96527122E9DACC003E78DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD96526F22E9DACC003E78DF /* LaunchScreen.storyboard */; };
+		FD96527922E9DAE6003E78DF /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD96527822E9DAE6003E78DF /* TestViewController.swift */; };
+		FD96527B22E9DAFA003E78DF /* ViewControllerWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD96527A22E9DAFA003E78DF /* ViewControllerWrapper.swift */; };
+		FD96527D22E9DB1F003E78DF /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD96527C22E9DB1F003E78DF /* ProfileView.swift */; };
+		FD96527F22E9DCAC003E78DF /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD96527E22E9DCAC003E78DF /* SecondViewController.swift */; };
+		FD96528122E9DCDF003E78DF /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD96528022E9DCDF003E78DF /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FD2BD17922E9F45E000E2A35 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		FD2BD17B22E9FA68000E2A35 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
 		FD96525E22E9DACA003E78DF /* NavTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD96526122E9DACA003E78DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD96526322E9DACA003E78DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +35,11 @@
 		FD96526D22E9DACC003E78DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FD96527022E9DACC003E78DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD96527222E9DACC003E78DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD96527822E9DAE6003E78DF /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TestViewController.swift; path = ../../TestViewController.swift; sourceTree = "<group>"; };
+		FD96527A22E9DAFA003E78DF /* ViewControllerWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerWrapper.swift; sourceTree = "<group>"; };
+		FD96527C22E9DB1F003E78DF /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		FD96527E22E9DCAC003E78DF /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		FD96528022E9DCDF003E78DF /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,7 @@
 		FD96526022E9DACA003E78DF /* NavTest */ = {
 			isa = PBXGroup;
 			children = (
+				FD96527A22E9DAFA003E78DF /* ViewControllerWrapper.swift */,
 				FD96526122E9DACA003E78DF /* AppDelegate.swift */,
 				FD96526322E9DACA003E78DF /* SceneDelegate.swift */,
 				FD96526822E9DACA003E78DF /* ContentView.swift */,
@@ -66,6 +81,12 @@
 				FD96527222E9DACC003E78DF /* Info.plist */,
 				FD96526522E9DACA003E78DF /* NavTest.xcdatamodeld */,
 				FD96526C22E9DACC003E78DF /* Preview Content */,
+				FD96527822E9DAE6003E78DF /* TestViewController.swift */,
+				FD96527C22E9DB1F003E78DF /* ProfileView.swift */,
+				FD96527E22E9DCAC003E78DF /* SecondViewController.swift */,
+				FD96528022E9DCDF003E78DF /* DetailView.swift */,
+				FD2BD17922E9F45E000E2A35 /* ThirdViewController.swift */,
+				FD2BD17B22E9FA68000E2A35 /* FourthViewController.swift */,
 			);
 			path = NavTest;
 			sourceTree = "<group>";
@@ -149,9 +170,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD96527F22E9DCAC003E78DF /* SecondViewController.swift in Sources */,
+				FD96528122E9DCDF003E78DF /* DetailView.swift in Sources */,
+				FD2BD17C22E9FA68000E2A35 /* FourthViewController.swift in Sources */,
+				FD2BD17A22E9F45E000E2A35 /* ThirdViewController.swift in Sources */,
+				FD96527922E9DAE6003E78DF /* TestViewController.swift in Sources */,
 				FD96526222E9DACA003E78DF /* AppDelegate.swift in Sources */,
+				FD96527B22E9DAFA003E78DF /* ViewControllerWrapper.swift in Sources */,
 				FD96526422E9DACA003E78DF /* SceneDelegate.swift in Sources */,
 				FD96526922E9DACA003E78DF /* ContentView.swift in Sources */,
+				FD96527D22E9DB1F003E78DF /* ProfileView.swift in Sources */,
 				FD96526722E9DACA003E78DF /* NavTest.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
